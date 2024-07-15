@@ -1,0 +1,356 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  width: 100%;
+  height: 720px;
+  background-image: url("./crypto\ img/bg.png");
+  padding: 15px 60px;
+  color: #ffffff;
+  position: relative;
+  background-color: #1b004e;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.menu-list a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.coin-image {
+  position: absolute;
+  width: 35%;
+  height: 400px;
+  right: 0;
+  top: 90px;
+}
+.scrool-image {
+  bottom: 0;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+.first-section-content {
+  width: 45%;
+  height: 300px;
+  /* border: 1px solid red; */
+  margin-top: 70px;
+}
+.first-section-content p {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.first-section-content span {
+  margin-top: 30px;
+  background: #eb5757;
+  border-radius: 20px;
+  width: 27%;
+  height: 30px;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.trade-now {
+  border: 2px solid #eb5757;
+  width: 10%;
+  height: 35px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.first-section-content h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+}
+.illustration-image {
+  position: absolute;
+  left: 0;
+  top: 40px;
+}
+.side-bye-side > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.third-section {
+  width: 100%;
+  height: 500px;
+  background: #fff6fb;
+  padding: 40px;
+}
+.all-content {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.fouth-section {
+  width: 100%;
+  height: 500px;
+  background-color: #676099;
+}
+.table-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.crypto-table {
+  color: white;
+  width: 80%;
+  height: 300px;
+  margin-top: 60px;
+  border-collapse: collapse;
+}
+.crypto-table tr {
+  border-bottom: 1px solid white;
+}
+
+/* 
+.crypto-table thead th {
+  padding: 8px 2px;
+  width: 100%;
+} */
+.third-section-h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.second-section {
+  width: 100%;
+  height: 500px;
+  padding-top: 40px;
+  background-color: #1b004e;
+}
+.second-section-h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.side-bye-side p {
+  color: #828282;
+}
+.third-section ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+.fouth-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 40%;
+  height: 200px;
+  gap: 20px;
+}
+.fouth-button {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.fouth-button img {
+  width: 50%;
+  height: 50px;
+}
+.fouth-section {
+  position: relative;
+}
+.fouth-section {
+  width: 100%;
+  height: 400px;
+}
+.phone-image {
+  position: absolute;
+  right: 100px;
+  top: 50px;
+  width: 30%;
+  height: 350px;
+}
+.fifth-section {
+  width: 100%;
+  background: #fff6fb;
+  padding: 80px 0;
+}
+.all-cards {
+  width: 100%;
+  /* height: 200px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: -16px -30px;
+}
+
+.fouth-section .container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.all-cards .card-item {
+  width: 33.3%;
+  border-radius: 10px;
+  padding: 16px 30px;
+}
+.card-header {
+  height: 200px;
+}
+.card-header img {
+  height: 100%;
+  width: 100%;
+}
+.card-body {
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0px 4px 8px 0px #cbcbcb40;
+  border-radius: 10px;
+}
+.fifth-section h2 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.card-footer {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.sixth-section {
+  width: 100%;
+  height: 350px;
+  color: white;
+  background-color: #1b004e;
+  padding: 30px 0;
+  position: relative;
+}
+.head-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+  gap: 10px;
+  padding: 30px 0 0 0;
+}
+.head-content h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.double-button {
+  border: 1px solid white;
+  border-radius: 37px;
+  width: 30%;
+  height: 60px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.double-button input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  color: #fff;
+}
+.double-button input::placeholder {
+  color: #fff;
+}
+.double-button button {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  bottom: 2px;
+  width: 139px;
+  border-radius: 31px;
+  background: #eb5757;
+  color: #fff;
+  border: none;
+}
+.shape-image {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  height: 300px;
+}
+.second-shape {
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+footer {
+  color: #fff;
+  width: 100%;
+  height: 300px;
+  padding: 50px 0;
+  background: linear-gradient(227.07deg, #4e0062 0.43%, #220076 99.56%);
+}
+.all-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.all-list ul li {
+  list-style: none;
+  padding: 5px;
+}
+.end-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.social-media img {
+  margin-left: 10px;
+}
+@media (width< 375px) {
+  header {
+    background-image: none;
+
+    .menu-list {
+      display: none;
+    }
+    .trade-now .coin-image .scrool-image {
+      display: none;
+    }
+    .first-section-content {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+}
